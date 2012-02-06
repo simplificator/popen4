@@ -1,6 +1,9 @@
 = POpen4
-This is a repackaged version of John-Mason P. Shackelfords {POpen4}[http://popen4.rubyforge.org/] 
+This is a repackaged version of John-Mason P. Shackelfords {POpen4}[http://popen4.rubyforge.org/]
 gem without native libraries.
+
+== About this fork
+This fork adds the compatibility with the MINGW compiled ruby for windows. MINGW is the compilation method used by Ruby Installer (http://rubyinstaller.org/).
 
 == Description
 POpen4 provides the Rubyist a single API across platforms for executing a

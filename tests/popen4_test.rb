@@ -8,7 +8,7 @@ require 'platform'
 class POpen4Test < Test::Unit::TestCase
 
   case Platform::OS
-    when :win32
+    when :win32, :mingw
       CMD_SHELL     = "cmd"
       CMD_STDERR    = "ruby -e \"$stderr.puts 'ruby'\""
       CMD_EXIT      = "ruby -e \"$stdout.puts 'ruby'; exit 1\""

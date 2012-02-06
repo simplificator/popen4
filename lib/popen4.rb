@@ -4,7 +4,7 @@ require 'platform'
 case Platform::OS
 
 # win32/popen4 yields stdin, stdout, stderr and pid, respectively
-when :win32
+when :win32, :mingw
 
   require 'win32/open3'
 
