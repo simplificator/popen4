@@ -31,20 +31,20 @@ rd = Rake::RDocTask.new("rdoc") { |rdoc|
 begin
   require 'jeweler'
   # Windows MSWIN
-  Jeweler::Tasks.new do |gemspec|
-    gemspec.name = "POpen4"
-    gemspec.summary = "Open4 cross-platform"
-    gemspec.description = ""
-    gemspec.email = "john-mason@shackelford.org"
-    gemspec.homepage = "http://github.com/pka/popen4"
-    gemspec.authors = ["John-Mason P. Shackelford"]
-    gemspec.add_dependency("Platform",   ">= 0.4.0")
-    gemspec.platform = 'x86-mswin32'
-    gemspec.add_dependency("win32-open3")
-  end
+  # Jeweler::Tasks.new do |gemspec|
+  #   gemspec.name = "POpen4"
+  #   gemspec.summary = "Open4 cross-platform"
+  #   gemspec.description = ""
+  #   gemspec.email = "john-mason@shackelford.org"
+  #   gemspec.homepage = "http://github.com/pka/popen4"
+  #   gemspec.authors = ["John-Mason P. Shackelford"]
+  #   gemspec.add_dependency("Platform",   ">= 0.4.0")
+  #   gemspec.platform = 'x86-mswin32'
+  #   gemspec.add_dependency("win32-open3")
+  # end
   # Windows MINWG
   Jeweler::Tasks.new do |gemspec|
-    gemspec.name = "POpen4"
+    gemspec.name = "POpen4-mingw"
     gemspec.summary = "Open4 cross-platform"
     gemspec.description = ""
     gemspec.email = "john-mason@shackelford.org"
@@ -55,16 +55,16 @@ begin
     gemspec.add_dependency("win32-open3")
   end
   # Unix
-  Jeweler::Tasks.new do |gemspec|
-    gemspec.name = "POpen4"
-    gemspec.summary = "Open4 cross-platform"
-    gemspec.description = ""
-    gemspec.email = "john-mason@shackelford.org"
-    gemspec.homepage = "http://github.com/pka/popen4"
-    gemspec.authors = ["John-Mason P. Shackelford"]
-    gemspec.add_dependency("Platform",   ">= 0.4.0")
-    gemspec.add_dependency("open4", ">= 0.4.0")
-  end
+  # Jeweler::Tasks.new do |gemspec|
+  #   gemspec.name = "POpen4"
+  #   gemspec.summary = "Open4 cross-platform"
+  #   gemspec.description = ""
+  #   gemspec.email = "john-mason@shackelford.org"
+  #   gemspec.homepage = "http://github.com/pka/popen4"
+  #   gemspec.authors = ["John-Mason P. Shackelford"]
+  #   gemspec.add_dependency("Platform",   ">= 0.4.0")
+  #   gemspec.add_dependency("open4", ">= 0.4.0")
+  # end
 rescue LoadError
   puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
 end

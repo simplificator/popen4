@@ -4,7 +4,7 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = "POpen4"
+  s.name = "POpen4-mingw"
   s.version = "0.1.6"
   s.platform = "x86-mingw32"
 
@@ -20,6 +20,7 @@ Gem::Specification.new do |s|
   s.files = [
     "CHANGES",
     "LICENSE",
+    "POpen4.gemspec",
     "README.rdoc",
     "Rakefile",
     "VERSION",
