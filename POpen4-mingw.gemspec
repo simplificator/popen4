@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.files = [
     "CHANGES",
     "LICENSE",
-    "POpen4.gemspec",
+    "POpen4-mingw.gemspec",
     "README.rdoc",
     "Rakefile",
     "VERSION",
